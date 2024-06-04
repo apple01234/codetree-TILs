@@ -9,4 +9,4 @@ b = int(arr[1])
 if a > b:
 	print(a * b)
 else:
-	print(b / a)
+	print(b // a)

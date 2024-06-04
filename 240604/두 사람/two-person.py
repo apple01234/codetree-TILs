@@ -8,7 +8,7 @@ arr2 = inp2.split()
 b_age, b_sex = int(arr2[0]), (arr2[1])
 
 # 출력
-if (a_age > 0 or b_age > 0) and (a_sex == 'M' or b_sex == 'M'):
+if (int(a_age > 0 or b_age > 0)) and (a_sex == 'M' or b_sex == 'M'):
     print(1)
 else:
     print(0)

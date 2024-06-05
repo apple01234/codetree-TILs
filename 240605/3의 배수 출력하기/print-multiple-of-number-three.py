@@ -1,5 +1,4 @@
 n = int(input())
 
-while 1 <= n:
-    print(n, end = " ")
-    n *= 3
+for i in range(3, n+1, 3):
+    print(i, end = " ")

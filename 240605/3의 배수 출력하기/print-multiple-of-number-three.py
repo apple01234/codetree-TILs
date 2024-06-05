@@ -1,4 +1,7 @@
 n = int(input())
 
-for i in range(3, n+1, 3):
-    print(i, end = " ")
+i = 1
+while i <= n:
+    i += 1
+    if i % 3 == 0:
+        print(i, end = " ")

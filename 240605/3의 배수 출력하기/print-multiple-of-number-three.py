@@ -1,7 +1,8 @@
+# 변수 선언, 입력
 n = int(input())
+i = 3
 
-i = 1
-while i <= n+1:
-    i += 1
-    if i % 3 == 0:
-        print(i, end = " ")
+# 출력
+while i <= n:
+	print(i, end=" ")
+	i += 3

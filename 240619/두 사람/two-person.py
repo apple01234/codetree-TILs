@@ -1,10 +1,12 @@
-a = input().split()
-b = input().split()
-
-if int(a[0]) >= 19 or int(b[0]) >= 19 :
-    if a[1] == 'M' or b[1] == 'M' :
-        print(1)
-    else :
-        print(0)
+user1 = input()
+arr = user1.split(' ')
+a = int(arr[0])
+b = (arr[1])
+user2 = input()
+arr = user2.split(' ')
+c = int(arr[0])
+d = (arr[1])
+if 19 >= a or c and 'M' == b or d :
+    print(1)
 else :
     print(0)

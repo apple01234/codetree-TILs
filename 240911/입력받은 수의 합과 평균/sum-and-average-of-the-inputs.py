@@ -7,4 +7,4 @@ for i in range(n):
 
 num_val = sum_val / n
 print(sum_val, end = " ")
-print(num_val)
+print(f"num_val:.1f")

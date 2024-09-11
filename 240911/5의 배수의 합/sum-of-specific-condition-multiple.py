@@ -1,7 +1,7 @@
 a, b = map(int, input().split())
 sum_val = 0
 
-for i in range(a, b or b, a):
+for i in range(a, b):
     if i % 5 == 0:
         sum_val += i
 

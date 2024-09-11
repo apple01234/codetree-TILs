@@ -6,4 +6,4 @@ for i in range(a, b):
         sum_val += i
 
 
-print(sum_val+b)
+print(sum_val)

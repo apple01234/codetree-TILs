@@ -10,5 +10,6 @@ int main() {
     cout << "Circumference rate";
     cout << endl;
     cout << 3.1415926535;
+    cout << endl;
     return 0;
 }

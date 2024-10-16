@@ -7,7 +7,7 @@ int main() {
         scanf("%c", &val[i]);
     }
     for (int i = 0; i < 10; i++) {
-        printf("%s ", val[9 - i]);
+        printf(" %c", val[9 - i]);
     }
     return 0;
 }

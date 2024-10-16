@@ -3,6 +3,6 @@
 int main() {
     int a = 3;
     char b = 'C';
-    printf("%c...%d", b, a); 
+    printf("%c!...!%d", b, a); 
     return 0;
 }
